@@ -11,9 +11,12 @@ My research interests include the dynamic analysis of laminated composite struct
 - 🔭 Currently SME @ Mercor, evaluating ML models
 - 🌱 I’m currently upskilling in neural networks, SQL and Power BI 🚀
 
-Seeking exciting, pivotal industry ML/data science roles or high-impact postdoctoral opportunities integrating AI with computational mechanics and structural engineering problems.  
-
 All my latest publications are available [here](https://scholar.google.com/citations?hl=en&user=MDWJF_sAAAAJ&view_op=list_works&sortby=pubdate).
+
+## I am currently seeking:
+
+- 🎯 Exciting pivotal industry ML/data science roles in health-tech, finance or consulting fields
+- ⚡ high-impact postdoctoral opportunities integrating AI with computational mechanics and structural engineering problems.  
 
 ## 👨🏻‍💻 I am skilled in: 
 
