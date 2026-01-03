@@ -9,7 +9,7 @@ Currently SME @ Mercor, evaluating ML models & upskilling in neural networks, SQ
 
 Seeking exciting, pivotal industry ML/data science roles or high-impact postdoctoral opportunities integrating AI with computational mechanics and structural engineering problems.  
 
-You can reach me on [eMail](sabyasachighos@gmail.com), [LinkedIn](https://www.linkedin.com/in/sabyasachi-ghosh-7098a7272/) or contact me on this page [here](https://sabyasachi-data.github.io/).
+You can reach me on [eMail](mailto:sabyasachighos@gmail.com), [LinkedIn](https://www.linkedin.com/in/sabyasachi-ghosh-7098a7272/) or contact me on this page [here](https://sabyasachi-data.github.io/).
 
 You can find my latest publications available [here](https://scholar.google.com/citations?hl=en&user=MDWJF_sAAAAJ&view_op=list_works&sortby=pubdate).
 
