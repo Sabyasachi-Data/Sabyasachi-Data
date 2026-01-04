@@ -1,4 +1,4 @@
-## Hi there 👋, my name is Sabyasachi Ghosh.
+## Hi there👋, my name is Sabyasachi Ghosh.
 
 ## About Me
 
