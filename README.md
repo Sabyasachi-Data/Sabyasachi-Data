@@ -10,8 +10,7 @@ My research interests include the dynamic analysis of laminated composite struct
 
 - 🔭 Currently SME @ Mercor, evaluating ML models
 - 🌱 I’m currently upskilling in neural networks, SQL and Power BI 🚀
-
-All my latest publications are available [here](https://scholar.google.com/citations?hl=en&user=MDWJF_sAAAAJ&view_op=list_works&sortby=pubdate).
+- 📄 All my latest publications are available [here](https://scholar.google.com/citations?hl=en&user=MDWJF_sAAAAJ&view_op=list_works&sortby=pubdate).
 
 ## I am currently seeking:
 
