@@ -26,7 +26,7 @@ Developed a ML pipeline for predicting composite shell natural frequency with:
 - **Visualizations**: Parity plots, residual analysis, sensitivity heatmaps, predicitions with uncertainty
 - **Publication**: Published in international peer-reviewed journals
 
-**Tech Stack:** `Python` · `scikit-learn` · `SALib` · `Matplotlib` · `NumPy` · `Pandas`
+**Tech Stack:** `Python` · `scikit-learn` · `Matplotlib` · `NumPy` · `Pandas` . `Seaborn`
 
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
