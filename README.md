@@ -6,9 +6,9 @@
 
 I am a computational mechanics researcher and PhD candidate at the [Applied Mechanics](https://www.iiests.ac.in/IIEST/StudDetails/?id=MTYxNQ==) Department of IIEST Shibpur, India.  
 
-My research interests include the dynamic analysis of laminated composite structures, finite element methods (utilising ABAQUS, ANSYS, and FORTRAN), structural health monitoring (SHM), and physics-informed neural networks for dynamic analysis and SHM applications.  
+My research interests include applying machine learning, neural networks and finite element methods (utilising ABAQUS, ANSYS, and FORTRAN) to structural dynamics ┬─┬.  
 
-- 🔭 Currently SME @ Mercor, evaluating ML models
+- 🔭 Currently SME @ Mercor
 - 🌱 I’m currently upskilling in neural networks, SQL and Power BI 🚀
 - 📄 All my latest publications are available [here](https://scholar.google.com/citations?hl=en&user=MDWJF_sAAAAJ&view_op=list_works&sortby=pubdate).
 
@@ -16,26 +16,37 @@ My research interests include the dynamic analysis of laminated composite struct
 
 ### 🔬 [Gaussian Process Machine Learning Surrogate Model](https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model)
 
-**A modular Python framework for uncertainty quantification and global sensitivity analysis in computational mechanics**
+**A production-style Python framework that reduces expensive FEM computations with a probabilistic Gaussian Process surrogate for fast uncertainty quantification and variance-based (Sobol) global sensitivity analysis.**
 
-Developed a ML pipeline for predicting composite shell natural frequency with:
+Developed an end-to-end ML pipeline for composite shell frequency-response prediction with:
 
-- **Gaussian Process Regression**: Custom scikit-learn transformers, multiple kernel options 
-- **Uncertainty Quantification**: Predictions with standard deviations and 95% confidence intervals
-- **Sobol Sensitivity Analysis**: First/total/second-order indices using ~1M model evaluations
+- **Gaussian Process Regression**: Zero-mean GP prior with Matérn covariance + white-noise term to capture residual modelling/meshing/measurement effects; scikit-learn–style modular components (custom transformers, swappable kernels)
+- **Model performance**: Test RMSE = 14.122; R2 = 0.981 (strong generalization on held-out data)
+- **Uncertainty Quantification**: Posterior predictive mean + pointwise standard deviation, with optional 95% predictive intervals for risk-aware inference
+- **Sobol Sensitivity Analysis**: Variance decomposition–based Sobol indices (first/total/second-order) using ~50,000 surrogate evaluations to rank dominant parameters
 - **Visualizations**: Parity plots, residual analysis, sensitivity heatmaps, predicitions with uncertainty
-- **Publication**: Published in international peer-reviewed journals
+- **Research Outcomes**: Demonstrated that Winkler/Pasternak foundation parameters, material orthotropy, and thickness ratio significantly influence the frequency response and quantified influence of individual parameters on model outcomes.
+- **Publication**: Published in peer‑reviewed international journals (including Computers & Structures and the International Journal of Mechanics and Materials in Design)
 
 **Tech Stack:** `Python` · `scikit-learn` · `Matplotlib` · `NumPy` · `Pandas` . `Seaborn`
 
-<center>
-<img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/parity_plot.png" alt="Parity Plot" width="60%">
-<center>
-*Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39*
-  <center>
-    <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="85%">
-<center>
-*Probabilistic model mean output on test data, having higher confidence (lower S.D) at targets regions having high data density and high S.D in the predictive mean, at target values of lower densities.*
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/parity_plot.png"
+           alt="Parity Plot" width="95%">
+      <br>
+      <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39.</i></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/predictions_uncertainty_2.png"
+           alt="Predictions with Uncertainty" width="95%">
+      <br>
+      <sub><i>Posterior predictive mean on test data: lower S.D. in high data-density regions; higher S.D. where training data are sparse.</i></sub>
+    </td>
+  </tr>
+</table>
+
 
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
