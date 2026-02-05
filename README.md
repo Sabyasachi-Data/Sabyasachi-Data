@@ -33,16 +33,16 @@ Developed an end-to-end ML pipeline for composite shell frequency-response predi
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" width="42.5%">
-      <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/parity_plot.png"
+      <img src="https://github.com/Sabyasachi-Data/Machine-Learning-Surrogate-Model_framework_for_shells/blob/main/outputs/figures/parity_plot.png"
            alt="Parity Plot" width="100%">
       <br>
       <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39.</i></sub>
     </td>
     <td align="center" width="57.5%">
-      <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/predictions_uncertainty_2.png"
+      <img src="https://github.com/Sabyasachi-Data/Machine-Learning-Surrogate-Model_framework_for_shells/blob/main/outputs/figures/predictions_uncertainty_2.png"
            alt="Predictions with Uncertainty" width="100%">
       <br>
-      <sub><i>Posterior predictive mean on test data: lower S.D. in high data-density regions; higher S.D. where training data are sparse.</i></sub>
+      <sub><i>Probabilistic predictions on the test set: low predictive S.D. in data-dense regions and higher S.D. where data are sparse. Gaussian process regression naturally provides calibrated output in predictive mean and variance terms, better suited than ordinary least squares for heteroscedastic frequency data.</i></sub>
     </td>
   </tr>
 </table>
