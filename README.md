@@ -42,7 +42,7 @@ Developed an end-to-end ML pipeline for composite shell frequency-response predi
       <img src="https://github.com/Sabyasachi-Data/Machine-Learning-Surrogate-Model_framework_for_shells/blob/main/outputs/figures/predictions_uncertainty_2.png"
            alt="Predictions with Uncertainty" width="100%">
       <br>
-      <sub><i>Probabilistic predictions on the test set: low predictive S.D. in data-dense regions and higher S.D. where data are sparse. Gaussian process regression naturally provides calibrated output in predictive mean and variance terms, better suited than ordinary least squares for heteroscedastic frequency data.</i></sub>
+      <sub><i>Low predictive S.D. in data-dense regions and higher S.D. where data are sparse. Gaussian process regression naturally provides calibrated output in predictive mean and variance terms, better suited than ordinary least squares for heteroscedastic frequency data.</i></sub>
     </td>
   </tr>
 </table>
