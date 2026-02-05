@@ -31,11 +31,11 @@ Developed a ML pipeline for predicting composite shell natural frequency with:
 <center>
 <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/parity_plot.png" alt="Parity Plot" width="60%">
 <center>
-
+*Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39*
   <center>
     <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="85%">
 <center>
-
+*Probabilistic model mean output on test data, having higher confidence (lower S.D) at targets regions having high data density and high S.D in the predictive mean, at target values of lower densities.*
 
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
