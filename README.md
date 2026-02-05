@@ -21,7 +21,7 @@ My research interests include applying machine learning, neural networks and fin
 Developed an end-to-end ML pipeline for composite shell frequency-response prediction with:
 
 - **Gaussian Process Regression**: Zero-mean GP prior with Matérn covariance + white-noise term to capture residual modelling/meshing/measurement effects; scikit-learn–style modular components (custom transformers, swappable kernels)
-- **Model performance**: Test RMSE = 14.122; R2 = 0.981 (strong generalization on held-out data)
+- **Model performance**: Test RMSE = 14.122; R<sup>2</sup> = 0.981 (strong generalization on held-out data)
 - **Uncertainty Quantification**: Posterior predictive mean + pointwise standard deviation, with optional 95% predictive intervals for risk-aware inference
 - **Sobol Sensitivity Analysis**: Variance decomposition–based Sobol indices (first/total/second-order) using ~50,000 surrogate evaluations to rank dominant parameters
 - **Visualizations**: Parity plots, residual analysis, sensitivity heatmaps, predicitions with uncertainty
@@ -30,17 +30,17 @@ Developed an end-to-end ML pipeline for composite shell frequency-response predi
 
 **Tech Stack:** `Python` · `scikit-learn` · `Matplotlib` · `NumPy` · `Pandas` . `Seaborn`
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="40%">
       <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/parity_plot.png"
-           alt="Parity Plot" width="95%">
+           alt="Parity Plot" width="100%">
       <br>
       <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39.</i></sub>
     </td>
     <td align="center" width="50%">
       <img src="https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model/blob/main/outputs/figures/predictions_uncertainty_2.png"
-           alt="Predictions with Uncertainty" width="95%">
+           alt="Predictions with Uncertainty" width="100%">
       <br>
       <sub><i>Posterior predictive mean on test data: lower S.D. in high data-density regions; higher S.D. where training data are sparse.</i></sub>
     </td>
